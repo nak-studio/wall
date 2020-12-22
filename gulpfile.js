@@ -14,8 +14,6 @@ function css() {
         cssImport(),
         postcssPresetEnv({
           stage: 1,
-          importFrom:
-            "./node_modules/nakds/dist/css/variables/custom-media.css",
           features: {
             "nesting-rules": true,
           },
